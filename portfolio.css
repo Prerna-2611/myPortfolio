@@ -1,0 +1,99 @@
+  @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+.navbar{
+    height: 50px;
+    width: 100vw;
+    background-color:black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: auto 4vh;
+    
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    
+    
+    
+}
+.navbar ul li{
+    margin: 3vh;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vh;
+    
+    /* height: 15px; */
+}
+.navbar ul li a{
+    
+    padding: 1vw 2vh;
+    color: pink;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    color: #f819d7;
+    cursor: pointer;
+    /* display: block; */
+    background-color: pink;
+    /* margin-bottom: 2px; */
+    /* padding: 8px 20px; */
+}
+.myimage{
+    text-align: center;
+    
+}
+.intro{
+    color: aliceblue;
+    font-family: 'Sacramento', cursive;
+    padding-left: 100px;
+    margin-top: 100px;
+    
+}
+.intro h1{
+    font-size: 5vw;
+    color: pink;
+}
+.intro p{
+    font-size: 1.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f819d7;
+}
+.container{
+    display:flex ;
+    justify-content:space-around;
+
+
+}
+.href{
+    border: 2px solid  #f819d7;
+    height: 50vh;
+    width: 30vw;
+    border-radius: 5%;
+    justify-content: center;
+    display: flex;
+    /* margin-right: 10%; */
+    margin-top: 5%;
+
+    
+
+    
+
+    
+}
+.container a{
+    color: pink;
+    text-decoration: none;
+    font-size: 2vw;
+    font-family: 'Quicksand', sans-serif;
+}
+  
+
+
